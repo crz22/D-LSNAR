@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\data_definition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\io2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\neuron_reconstruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\single_neuron_reconstruction_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun\v3d_message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun\basic_surf_objs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun\basic_4dimage_create.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c\mst_prim_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c\bfs_1root.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\graph\dijk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing\neuron_sim_scores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing\v_neuronswc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing\global_feature_compute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtbuttonpropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qteditorfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtgroupboxpropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtpropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtpropertybrowserutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtpropertymanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qttreepropertybrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtvariantproperty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BC7785F7-0CAB-31B5-9E17-061F58DF0D8B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5283 @@
+{
+	"entries" : 
+	[
+		{
+			"name" : "CMAKE_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/Visual Studio2013/VC/bin/x86_amd64/lib.exe"
+		},
+		{
+			"name" : "CMAKE_CACHEFILE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the directory where this CMakeCache.txt was created"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "f:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build"
+		},
+		{
+			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Major version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3"
+		},
+		{
+			"name" : "CMAKE_CACHE_MINOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Minor version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "24"
+		},
+		{
+			"name" : "CMAKE_CACHE_PATCH_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Patch version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "0"
+		},
+		{
+			"name" : "CMAKE_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/cmake/cmake-3.24.0/bin/cmake.exe"
+		},
+		{
+			"name" : "CMAKE_CONFIGURATION_TYPES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Semicolon separated list of supported configuration types, only supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything else will be ignored."
+				}
+			],
+			"type" : "STRING",
+			"value" : "Debug;Release;MinSizeRel;RelWithDebInfo"
+		},
+		{
+			"name" : "CMAKE_CPACK_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to cpack program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/cmake/cmake-3.24.0/bin/cpack.exe"
+		},
+		{
+			"name" : "CMAKE_CTEST_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to ctest program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/cmake/cmake-3.24.0/bin/ctest.exe"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/DWIN32 /D_WINDOWS /EHsc"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/Zi /Ob0 /Od /RTC1"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/O1 /Ob1 /DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/O2 /Ob2 /DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/Zi /O2 /Ob1 /DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_STANDARD_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Libraries linked by default with all C++ applications."
+				}
+			],
+			"type" : "STRING",
+			"value" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib"
+		},
+		{
+			"name" : "CMAKE_EXECUTABLE_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Executable file format"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Unknown"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/machine:x64"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of external makefile project generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake."
+				}
+			],
+			"type" : "STATIC",
+			"value" : "F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/CMakeFiles/pkgRedirects"
+		},
+		{
+			"name" : "CMAKE_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Visual Studio 12 2013"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_INSTANCE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generator instance identifier."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_PLATFORM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator platform."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "x64"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_TOOLSET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator toolset."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HOME_DIRECTORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction"
+		},
+		{
+			"name" : "CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install path prefix, prepended onto install directories."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Program Files/single_neuron_reconstruction"
+		},
+		{
+			"name" : "CMAKE_LINKER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/Visual Studio2013/VC/bin/x86_amd64/link.exe"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/machine:x64"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_MT",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files (x86)/Windows Kits/8.1/bin/x86/mt.exe"
+		},
+		{
+			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "number of local generators"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Platform information initialized"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_DESCRIPTION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "single_neuron_reconstruction"
+		},
+		{
+			"name" : "CMAKE_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "noop for ranlib"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ":"
+		},
+		{
+			"name" : "CMAKE_RC_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "RC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files (x86)/Windows Kits/8.1/bin/x86/rc.exe"
+		},
+		{
+			"name" : "CMAKE_RC_COMPILER_WORKS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-DWIN32"
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-D_DEBUG"
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_RC_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags for Windows Resource Compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_ROOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake installation."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/cmake/cmake-3.24.0/share/cmake-3.24"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/machine:x64"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/INCREMENTAL:NO"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/debug /INCREMENTAL"
+		},
+		{
+			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_SKIP_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when using shared libraries."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "/machine:x64"
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_VERBOSE_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "CUDA_64_BIT_DEVICE_CODE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compile device code in 64 bit mode"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CUDA_ATTACH_VS_BUILD_RULE_TO_CUDA_FILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Attach the build rule to the CUDA source file.  Enable only when the CUDA source file is added to at most one target."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CUDA_BUILD_CUBIN",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generate and parse .cubin files in Device mode."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CUDA_BUILD_EMULATION",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build in Emulation mode"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CUDA_CUDART_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"cudart\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/cudart.lib"
+		},
+		{
+			"name" : "CUDA_CUDA_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"cuda\" library (older versions only)."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/cuda.lib"
+		},
+		{
+			"name" : "CUDA_GENERATED_OUTPUT_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Directory to put all the output files.  If blank it will default to the CMAKE_CURRENT_BINARY_DIR"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CUDA_HOST_COMPILATION_CPP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generated file extension"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CUDA_HOST_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Host side compiler used by NVCC"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "$(VCInstallDir)bin"
+		},
+		{
+			"name" : "CUDA_NVCC_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/bin/nvcc.exe"
+		},
+		{
+			"name" : "CUDA_NVCC_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Semi-colon delimit multiple arguments. during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CUDA_NVCC_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Semi-colon delimit multiple arguments. during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CUDA_NVCC_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Semi-colon delimit multiple arguments. during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CUDA_NVCC_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Semi-colon delimit multiple arguments. during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CUDA_NVCC_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Semi-colon delimit multiple arguments. during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CUDA_OpenCL_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"OpenCL\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/OpenCL.lib"
+		},
+		{
+			"name" : "CUDA_PROPAGATE_HOST_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Propagate C/CXX_FLAGS and friends to the host compiler via -Xcompile"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CUDA_SDK_ROOT_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "CUDA_SDK_ROOT_DIR-NOTFOUND"
+		},
+		{
+			"name" : "CUDA_SDK_ROOT_DIR_INTERNAL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the value of the last time CUDA_SDK_ROOT_DIR was set successfully."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "CUDA_SDK_ROOT_DIR-NOTFOUND"
+		},
+		{
+			"name" : "CUDA_SEPARABLE_COMPILATION",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compile CUDA objects with separable compilation enabled.  Requires CUDA 5.0+"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CUDA_TOOLKIT_INCLUDE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/include"
+		},
+		{
+			"name" : "CUDA_TOOLKIT_ROOT_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Toolkit location."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4"
+		},
+		{
+			"name" : "CUDA_TOOLKIT_ROOT_DIR_INTERNAL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the value of the last time CUDA_TOOLKIT_ROOT_DIR was set successfully."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4"
+		},
+		{
+			"name" : "CUDA_TOOLKIT_TARGET_DIR_INTERNAL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the value of the last time CUDA_TOOLKIT_TARGET_DIR was set successfully."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4"
+		},
+		{
+			"name" : "CUDA_USE_STATIC_CUDA_RUNTIME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use the static version of the CUDA runtime library if available"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CUDA_VERBOSE_BUILD",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Print out the commands run while compiling the CUDA source file.  With the Makefile generator this defaults to VERBOSE variable specified on the command line, but can be forced on with this option."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CUDA_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Version of CUDA as computed from nvcc."
+				}
+			],
+			"type" : "STRING",
+			"value" : "11.4"
+		},
+		{
+			"name" : "CUDA_cublas_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"cublas\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/cublas.lib"
+		},
+		{
+			"name" : "CUDA_cudadevrt_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"cudadevrt\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/cudadevrt.lib"
+		},
+		{
+			"name" : "CUDA_cudart_static_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "static CUDA runtime library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/cudart_static.lib"
+		},
+		{
+			"name" : "CUDA_cufft_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"cufft\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/cufft.lib"
+		},
+		{
+			"name" : "CUDA_cupti_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"cupti\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/extras/CUPTI/lib64/cupti.lib"
+		},
+		{
+			"name" : "CUDA_curand_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"curand\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/curand.lib"
+		},
+		{
+			"name" : "CUDA_cusolver_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"cusolver\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/cusolver.lib"
+		},
+		{
+			"name" : "CUDA_cusparse_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"cusparse\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/cusparse.lib"
+		},
+		{
+			"name" : "CUDA_make2cmake",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Location of make2cmake.cmake"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/cmake/cmake-3.24.0/share/cmake-3.24/Modules/FindCUDA/make2cmake.cmake"
+		},
+		{
+			"name" : "CUDA_nppc_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nppc\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/nppc.lib"
+		},
+		{
+			"name" : "CUDA_nppial_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nppial\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/nppial.lib"
+		},
+		{
+			"name" : "CUDA_nppicc_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nppicc\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/nppicc.lib"
+		},
+		{
+			"name" : "CUDA_nppidei_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nppidei\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/nppidei.lib"
+		},
+		{
+			"name" : "CUDA_nppif_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nppif\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/nppif.lib"
+		},
+		{
+			"name" : "CUDA_nppig_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nppig\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/nppig.lib"
+		},
+		{
+			"name" : "CUDA_nppim_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nppim\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/nppim.lib"
+		},
+		{
+			"name" : "CUDA_nppist_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nppist\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/nppist.lib"
+		},
+		{
+			"name" : "CUDA_nppisu_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nppisu\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/nppisu.lib"
+		},
+		{
+			"name" : "CUDA_nppitc_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nppitc\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/nppitc.lib"
+		},
+		{
+			"name" : "CUDA_npps_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"npps\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/npps.lib"
+		},
+		{
+			"name" : "CUDA_nvToolsExt_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nvToolsExt\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CUDA_nvToolsExt_LIBRARY-NOTFOUND"
+		},
+		{
+			"name" : "CUDA_nvcuvenc_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nvcuvenc\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CUDA_nvcuvenc_LIBRARY-NOTFOUND"
+		},
+		{
+			"name" : "CUDA_nvcuvid_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "\"nvcuvid\" library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CUDA_nvcuvid_LIBRARY-NOTFOUND"
+		},
+		{
+			"name" : "CUDA_parse_cubin",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Location of parse_cubin.cmake"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/cmake/cmake-3.24.0/share/cmake-3.24/Modules/FindCUDA/parse_cubin.cmake"
+		},
+		{
+			"name" : "CUDA_run_nvcc",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Location of run_nvcc.cmake"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/cmake/cmake-3.24.0/share/cmake-3.24/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_CUDA",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding CUDA"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4][C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/bin/nvcc.exe][C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/include][C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/lib/x64/cudart_static.lib][v11.4()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Qt4",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Qt4"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[D:/ruanjian/QT/4.8.6/bin/qmake.exe][D:/ruanjian/QT/4.8.6/bin/moc.exe][D:/ruanjian/QT/4.8.6/bin/rcc.exe][D:/ruanjian/QT/4.8.6/bin/uic.exe][D:/ruanjian/QT/4.8.6/include][D:/ruanjian/QT/4.8.6/lib][optimized;D:/ruanjian/QT/4.8.6/lib/QtCore4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtCored4.lib][v4.8.6()]"
+		},
+		{
+			"name" : "QT_ARTHURPLUGIN_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_ARTHURPLUGIN_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_ARTHURPLUGIN_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/designer/arthurplugin.dll"
+		},
+		{
+			"name" : "QT_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/QT/4.8.6/bin"
+		},
+		{
+			"name" : "QT_CONTAINEREXTENSION_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_CONTAINEREXTENSION_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_CONTAINEREXTENSION_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/designer/containerextension.dll"
+		},
+		{
+			"name" : "QT_CUSTOMWIDGETPLUGIN_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_CUSTOMWIDGETPLUGIN_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_CUSTOMWIDGETPLUGIN_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/designer/customwidgetplugin.dll"
+		},
+		{
+			"name" : "QT_DBUSCPP2XML_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_DBUSCPP2XML_EXECUTABLE-NOTFOUND"
+		},
+		{
+			"name" : "QT_DBUSXML2CPP_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_DBUSXML2CPP_EXECUTABLE-NOTFOUND"
+		},
+		{
+			"name" : "QT_DESIGNER_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/designer.exe"
+		},
+		{
+			"name" : "QT_DOC_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The location of the Qt docs"
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/doc"
+		},
+		{
+			"name" : "QT_HEADERS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/QT/4.8.6/include"
+		},
+		{
+			"name" : "QT_IMPORTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The location of the Qt imports"
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/imports"
+		},
+		{
+			"name" : "QT_LIBRARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt library dir"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/QT/4.8.6/lib"
+		},
+		{
+			"name" : "QT_LINGUIST_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/linguist.exe"
+		},
+		{
+			"name" : "QT_LRELEASE_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/lrelease.exe"
+		},
+		{
+			"name" : "QT_LUPDATE_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/lupdate.exe"
+		},
+		{
+			"name" : "QT_MKSPECS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The location of the Qt mkspecs containing qconfig.pri"
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/mkspecs"
+		},
+		{
+			"name" : "QT_MOC_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/moc.exe"
+		},
+		{
+			"name" : "QT_PHONONWIDGETS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_PHONONWIDGETS_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_PHONONWIDGETS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/designer/phononwidgets.dll"
+		},
+		{
+			"name" : "QT_PHONON_DS9_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/phonon_backend/phonon_ds9d4.dll"
+		},
+		{
+			"name" : "QT_PHONON_DS9_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/phonon_backend/phonon_ds94.dll"
+		},
+		{
+			"name" : "QT_PHONON_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/phonon"
+		},
+		{
+			"name" : "QT_PHONON_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt PHONON library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/phonon4.lib;debug;D:/ruanjian/QT/4.8.6/lib/phonond4.lib"
+		},
+		{
+			"name" : "QT_PHONON_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/phonond4.lib"
+		},
+		{
+			"name" : "QT_PHONON_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/phonon4.lib"
+		},
+		{
+			"name" : "QT_PLUGINS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The location of the Qt plugins"
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins"
+		},
+		{
+			"name" : "QT_QAXCONTAINER_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/ActiveQt"
+		},
+		{
+			"name" : "QT_QAXCONTAINER_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QAXCONTAINER library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QAxContainer.lib;debug;D:/ruanjian/QT/4.8.6/lib/QAxContainerd.lib"
+		},
+		{
+			"name" : "QT_QAXCONTAINER_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QAxContainerd.lib"
+		},
+		{
+			"name" : "QT_QAXCONTAINER_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QAxContainer.lib"
+		},
+		{
+			"name" : "QT_QAXSERVER_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/ActiveQt"
+		},
+		{
+			"name" : "QT_QAXSERVER_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QAXSERVER library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QAxServer.lib;debug;D:/ruanjian/QT/4.8.6/lib/QAxServerd.lib"
+		},
+		{
+			"name" : "QT_QAXSERVER_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QAxServerd.lib"
+		},
+		{
+			"name" : "QT_QAXSERVER_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QAxServer.lib"
+		},
+		{
+			"name" : "QT_QCNCODECS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/codecs/qcncodecsd4.dll"
+		},
+		{
+			"name" : "QT_QCNCODECS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/codecs/qcncodecs4.dll"
+		},
+		{
+			"name" : "QT_QCOLLECTIONGENERATOR_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/qcollectiongenerator.exe"
+		},
+		{
+			"name" : "QT_QCOREWLANBEARER_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QCOREWLANBEARER_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QCOREWLANBEARER_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QCOREWLANBEARER_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QDECLARATIVEVIEW_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QDECLARATIVEVIEW_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QDECLARATIVEVIEW_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/designer/qdeclarativeview.dll"
+		},
+		{
+			"name" : "QT_QDECORATIONDEFAULT_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QDECORATIONDEFAULT_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QDECORATIONDEFAULT_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QDECORATIONDEFAULT_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QDECORATIONWINDOWS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QDECORATIONWINDOWS_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QDECORATIONWINDOWS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QDECORATIONWINDOWS_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QGENERICBEARER_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/bearer/qgenericbearerd4.dll"
+		},
+		{
+			"name" : "QT_QGENERICBEARER_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/bearer/qgenericbearer4.dll"
+		},
+		{
+			"name" : "QT_QGIF_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qgifd4.dll"
+		},
+		{
+			"name" : "QT_QGIF_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qgif4.dll"
+		},
+		{
+			"name" : "QT_QGLGRAPHICSSYSTEM_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/graphicssystems/qglgraphicssystemd4.dll"
+		},
+		{
+			"name" : "QT_QGLGRAPHICSSYSTEM_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/graphicssystems/qglgraphicssystem4.dll"
+		},
+		{
+			"name" : "QT_QICO_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qicod4.dll"
+		},
+		{
+			"name" : "QT_QICO_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qico4.dll"
+		},
+		{
+			"name" : "QT_QIMSW_MULTI_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QIMSW_MULTI_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QIMSW_MULTI_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QIMSW_MULTI_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QJPCODECS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/codecs/qjpcodecsd4.dll"
+		},
+		{
+			"name" : "QT_QJPCODECS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/codecs/qjpcodecs4.dll"
+		},
+		{
+			"name" : "QT_QJPEG_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qjpegd4.dll"
+		},
+		{
+			"name" : "QT_QJPEG_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qjpeg4.dll"
+		},
+		{
+			"name" : "QT_QKRCODECS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/codecs/qkrcodecsd4.dll"
+		},
+		{
+			"name" : "QT_QKRCODECS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/codecs/qkrcodecs4.dll"
+		},
+		{
+			"name" : "QT_QMAKE_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The qmake executable for the Qt installation to use"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/qmake.exe"
+		},
+		{
+			"name" : "QT_QMAKE_EXECUTABLE_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/qmake.exe"
+		},
+		{
+			"name" : "QT_QMNG_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qmngd4.dll"
+		},
+		{
+			"name" : "QT_QMNG_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qmng4.dll"
+		},
+		{
+			"name" : "QT_QNATIVEWIFIBEARER_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/bearer/qnativewifibearerd4.dll"
+		},
+		{
+			"name" : "QT_QNATIVEWIFIBEARER_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/bearer/qnativewifibearer4.dll"
+		},
+		{
+			"name" : "QT_QSQLDB2_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLDB2_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLDB2_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLDB2_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLIBASE_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLIBASE_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLIBASE_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLIBASE_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLITE2_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLITE2_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLITE2_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLITE2_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLITE_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/sqldrivers/qsqlited4.dll"
+		},
+		{
+			"name" : "QT_QSQLITE_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/sqldrivers/qsqlite4.dll"
+		},
+		{
+			"name" : "QT_QSQLMYSQL_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLMYSQL_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLMYSQL_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLMYSQL_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLOCI_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLOCI_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLOCI_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLOCI_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLODBC_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLODBC_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLODBC_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLODBC_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLPSQL_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLPSQL_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLPSQL_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLPSQL_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLTDS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLTDS_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSQLTDS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QSQLTDS_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QSVGICON_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/iconengines/qsvgicond4.dll"
+		},
+		{
+			"name" : "QT_QSVGICON_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/iconengines/qsvgicon4.dll"
+		},
+		{
+			"name" : "QT_QSVG_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qsvgd4.dll"
+		},
+		{
+			"name" : "QT_QSVG_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qsvg4.dll"
+		},
+		{
+			"name" : "QT_QT3SUPPORTWIDGETS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QT3SUPPORTWIDGETS_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QT3SUPPORTWIDGETS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/designer/qt3supportwidgets.dll"
+		},
+		{
+			"name" : "QT_QT3SUPPORT_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/Qt3Support"
+		},
+		{
+			"name" : "QT_QT3SUPPORT_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QT3SUPPORT library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/Qt3Support4.lib;debug;D:/ruanjian/QT/4.8.6/lib/Qt3Supportd4.lib"
+		},
+		{
+			"name" : "QT_QT3SUPPORT_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/Qt3Supportd4.lib"
+		},
+		{
+			"name" : "QT_QT3SUPPORT_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/Qt3Support4.lib"
+		},
+		{
+			"name" : "QT_QTACCESSIBLECOMPATWIDGETS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/accessible/qtaccessiblecompatwidgetsd4.dll"
+		},
+		{
+			"name" : "QT_QTACCESSIBLECOMPATWIDGETS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/accessible/qtaccessiblecompatwidgets4.dll"
+		},
+		{
+			"name" : "QT_QTACCESSIBLEWIDGETS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/accessible/qtaccessiblewidgetsd4.dll"
+		},
+		{
+			"name" : "QT_QTACCESSIBLEWIDGETS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/accessible/qtaccessiblewidgets4.dll"
+		},
+		{
+			"name" : "QT_QTASSISTANTCLIENT_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "QT_QTASSISTANTCLIENT_INCLUDE_DIR-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTASSISTANTCLIENT_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTASSISTANTCLIENT library"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "QT_QTASSISTANTCLIENT_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTASSISTANTCLIENT_LIBRARY_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTASSISTANTCLIENT_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTASSISTANTCLIENT_LIBRARY_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTASSISTANT_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "QT_QTASSISTANT_INCLUDE_DIR-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTASSISTANT_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTASSISTANT library"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "QT_QTASSISTANT_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTASSISTANT_LIBRARY_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTASSISTANT_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTASSISTANT_LIBRARY_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTCLUCENE_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTCLUCENE library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtCLucene4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtCLucened4.lib"
+		},
+		{
+			"name" : "QT_QTCLUCENE_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtCLucened4.lib"
+		},
+		{
+			"name" : "QT_QTCLUCENE_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtCLucene4.lib"
+		},
+		{
+			"name" : "QT_QTCORE_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtCore"
+		},
+		{
+			"name" : "QT_QTCORE_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTCORE library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtCore4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtCored4.lib"
+		},
+		{
+			"name" : "QT_QTCORE_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtCored4.lib"
+		},
+		{
+			"name" : "QT_QTCORE_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtCore4.lib"
+		},
+		{
+			"name" : "QT_QTDBUS_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtDBus"
+		},
+		{
+			"name" : "QT_QTDBUS_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTDBUS library"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "QT_QTDBUS_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTDBUS_LIBRARY_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTDBUS_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTDBUS_LIBRARY_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTDECLARATIVE_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtDeclarative"
+		},
+		{
+			"name" : "QT_QTDECLARATIVE_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTDECLARATIVE library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtDeclarative4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtDeclaratived4.lib"
+		},
+		{
+			"name" : "QT_QTDECLARATIVE_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtDeclaratived4.lib"
+		},
+		{
+			"name" : "QT_QTDECLARATIVE_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtDeclarative4.lib"
+		},
+		{
+			"name" : "QT_QTDESIGNERCOMPONENTS_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtDesigner"
+		},
+		{
+			"name" : "QT_QTDESIGNERCOMPONENTS_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTDESIGNERCOMPONENTS library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtDesignerComponents4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtDesignerComponentsd4.lib"
+		},
+		{
+			"name" : "QT_QTDESIGNERCOMPONENTS_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtDesignerComponentsd4.lib"
+		},
+		{
+			"name" : "QT_QTDESIGNERCOMPONENTS_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtDesignerComponents4.lib"
+		},
+		{
+			"name" : "QT_QTDESIGNER_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtDesigner"
+		},
+		{
+			"name" : "QT_QTDESIGNER_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTDESIGNER library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtDesigner4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtDesignerd4.lib"
+		},
+		{
+			"name" : "QT_QTDESIGNER_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtDesignerd4.lib"
+		},
+		{
+			"name" : "QT_QTDESIGNER_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtDesigner4.lib"
+		},
+		{
+			"name" : "QT_QTGA_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qtgad4.dll"
+		},
+		{
+			"name" : "QT_QTGA_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qtga4.dll"
+		},
+		{
+			"name" : "QT_QTGUI_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtGui"
+		},
+		{
+			"name" : "QT_QTGUI_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTGUI library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtGui4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtGuid4.lib"
+		},
+		{
+			"name" : "QT_QTGUI_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtGuid4.lib"
+		},
+		{
+			"name" : "QT_QTGUI_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtGui4.lib"
+		},
+		{
+			"name" : "QT_QTHELP_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtHelp"
+		},
+		{
+			"name" : "QT_QTHELP_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTHELP library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtHelp4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtHelpd4.lib"
+		},
+		{
+			"name" : "QT_QTHELP_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtHelpd4.lib"
+		},
+		{
+			"name" : "QT_QTHELP_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtHelp4.lib"
+		},
+		{
+			"name" : "QT_QTIFF_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qtiffd4.dll"
+		},
+		{
+			"name" : "QT_QTIFF_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/imageformats/qtiff4.dll"
+		},
+		{
+			"name" : "QT_QTMAIN_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTMAIN library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/qtmain.lib;debug;D:/ruanjian/QT/4.8.6/lib/qtmaind.lib"
+		},
+		{
+			"name" : "QT_QTMAIN_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/qtmaind.lib"
+		},
+		{
+			"name" : "QT_QTMAIN_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/qtmain.lib"
+		},
+		{
+			"name" : "QT_QTMULTIMEDIA_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtMultimedia"
+		},
+		{
+			"name" : "QT_QTMULTIMEDIA_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTMULTIMEDIA library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtMultimedia4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtMultimediad4.lib"
+		},
+		{
+			"name" : "QT_QTMULTIMEDIA_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtMultimediad4.lib"
+		},
+		{
+			"name" : "QT_QTMULTIMEDIA_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtMultimedia4.lib"
+		},
+		{
+			"name" : "QT_QTNETWORK_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtNetwork"
+		},
+		{
+			"name" : "QT_QTNETWORK_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTNETWORK library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtNetwork4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtNetworkd4.lib"
+		},
+		{
+			"name" : "QT_QTNETWORK_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtNetworkd4.lib"
+		},
+		{
+			"name" : "QT_QTNETWORK_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtNetwork4.lib"
+		},
+		{
+			"name" : "QT_QTNSPLUGIN_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "QT_QTNSPLUGIN_INCLUDE_DIR-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTNSPLUGIN_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTNSPLUGIN library"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "QT_QTNSPLUGIN_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTNSPLUGIN_LIBRARY_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTNSPLUGIN_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTNSPLUGIN_LIBRARY_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTOPENGL_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtOpenGL"
+		},
+		{
+			"name" : "QT_QTOPENGL_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTOPENGL library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtOpenGL4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtOpenGLd4.lib"
+		},
+		{
+			"name" : "QT_QTOPENGL_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtOpenGLd4.lib"
+		},
+		{
+			"name" : "QT_QTOPENGL_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtOpenGL4.lib"
+		},
+		{
+			"name" : "QT_QTRACEGRAPHICSSYSTEM_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/graphicssystems/qtracegraphicssystemd4.dll"
+		},
+		{
+			"name" : "QT_QTRACEGRAPHICSSYSTEM_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/graphicssystems/qtracegraphicssystem4.dll"
+		},
+		{
+			"name" : "QT_QTSCRIPTDBUS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTSCRIPTDBUS_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTSCRIPTDBUS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTSCRIPTDBUS_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTSCRIPTTOOLS_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtScriptTools"
+		},
+		{
+			"name" : "QT_QTSCRIPTTOOLS_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTSCRIPTTOOLS library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtScriptTools4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtScriptToolsd4.lib"
+		},
+		{
+			"name" : "QT_QTSCRIPTTOOLS_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtScriptToolsd4.lib"
+		},
+		{
+			"name" : "QT_QTSCRIPTTOOLS_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtScriptTools4.lib"
+		},
+		{
+			"name" : "QT_QTSCRIPT_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtScript"
+		},
+		{
+			"name" : "QT_QTSCRIPT_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTSCRIPT library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtScript4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtScriptd4.lib"
+		},
+		{
+			"name" : "QT_QTSCRIPT_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtScriptd4.lib"
+		},
+		{
+			"name" : "QT_QTSCRIPT_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtScript4.lib"
+		},
+		{
+			"name" : "QT_QTSQL_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtSql"
+		},
+		{
+			"name" : "QT_QTSQL_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTSQL library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtSql4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtSqld4.lib"
+		},
+		{
+			"name" : "QT_QTSQL_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtSqld4.lib"
+		},
+		{
+			"name" : "QT_QTSQL_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtSql4.lib"
+		},
+		{
+			"name" : "QT_QTSVG_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtSvg"
+		},
+		{
+			"name" : "QT_QTSVG_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTSVG library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtSvg4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtSvgd4.lib"
+		},
+		{
+			"name" : "QT_QTSVG_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtSvgd4.lib"
+		},
+		{
+			"name" : "QT_QTSVG_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtSvg4.lib"
+		},
+		{
+			"name" : "QT_QTTEST_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtTest"
+		},
+		{
+			"name" : "QT_QTTEST_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTTEST library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtTest4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtTestd4.lib"
+		},
+		{
+			"name" : "QT_QTTEST_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtTestd4.lib"
+		},
+		{
+			"name" : "QT_QTTEST_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtTest4.lib"
+		},
+		{
+			"name" : "QT_QTUITOOLS_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtUiTools"
+		},
+		{
+			"name" : "QT_QTUITOOLS_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTUITOOLS library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtUiTools.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtUiToolsd.lib"
+		},
+		{
+			"name" : "QT_QTUITOOLS_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtUiToolsd.lib"
+		},
+		{
+			"name" : "QT_QTUITOOLS_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtUiTools.lib"
+		},
+		{
+			"name" : "QT_QTWCODECS_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/codecs/qtwcodecsd4.dll"
+		},
+		{
+			"name" : "QT_QTWCODECS_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/codecs/qtwcodecs4.dll"
+		},
+		{
+			"name" : "QT_QTWEBKIT_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtWebKit"
+		},
+		{
+			"name" : "QT_QTWEBKIT_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTWEBKIT library"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "QT_QTWEBKIT_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTWEBKIT_LIBRARY_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTWEBKIT_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QTWEBKIT_LIBRARY_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QTXMLPATTERNS_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtXmlPatterns"
+		},
+		{
+			"name" : "QT_QTXMLPATTERNS_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTXMLPATTERNS library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtXmlPatterns4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtXmlPatternsd4.lib"
+		},
+		{
+			"name" : "QT_QTXMLPATTERNS_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtXmlPatternsd4.lib"
+		},
+		{
+			"name" : "QT_QTXMLPATTERNS_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtXmlPatterns4.lib"
+		},
+		{
+			"name" : "QT_QTXML_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/include/QtXml"
+		},
+		{
+			"name" : "QT_QTXML_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The Qt QTXML library"
+				}
+			],
+			"type" : "STRING",
+			"value" : "optimized;D:/ruanjian/QT/4.8.6/lib/QtXml4.lib;debug;D:/ruanjian/QT/4.8.6/lib/QtXmld4.lib"
+		},
+		{
+			"name" : "QT_QTXML_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtXmld4.lib"
+		},
+		{
+			"name" : "QT_QTXML_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/lib/QtXml4.lib"
+		},
+		{
+			"name" : "QT_QWEBVIEW_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QWEBVIEW_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QWEBVIEW_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QWEBVIEW_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_QWSTSLIBMOUSEHANDLER_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QWSTSLIBMOUSEHANDLER_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_QWSTSLIBMOUSEHANDLER_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_QWSTSLIBMOUSEHANDLER_PLUGIN_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "QT_RCC_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/rcc.exe"
+		},
+		{
+			"name" : "QT_TASKMENUEXTENSION_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_TASKMENUEXTENSION_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_TASKMENUEXTENSION_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/designer/taskmenuextension.dll"
+		},
+		{
+			"name" : "QT_TRANSLATIONS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The location of the Qt translations"
+				}
+			],
+			"type" : "PATH",
+			"value" : "D:/ruanjian/QT/4.8.6/translations"
+		},
+		{
+			"name" : "QT_UIC3_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/uic3.exe"
+		},
+		{
+			"name" : "QT_UIC_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/bin/uic.exe"
+		},
+		{
+			"name" : "QT_WORLDTIMECLOCKPLUGIN_PLUGIN_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "QT_WORLDTIMECLOCKPLUGIN_PLUGIN_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "QT_WORLDTIMECLOCKPLUGIN_PLUGIN_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/ruanjian/QT/4.8.6/plugins/designer/worldtimeclockplugin.dll"
+		},
+		{
+			"name" : "Q_WS_MAC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have symbol Q_WS_MAC"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "Q_WS_QWS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have symbol Q_WS_QWS"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "Q_WS_WIN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have symbol Q_WS_WIN"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "Q_WS_X11",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have symbol Q_WS_X11"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "single_neuron_reconstruction_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build"
+		},
+		{
+			"name" : "single_neuron_reconstruction_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "single_neuron_reconstruction_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction"
+		}
+	],
+	"kind" : "cache",
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

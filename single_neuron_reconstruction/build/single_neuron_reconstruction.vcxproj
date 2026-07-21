@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{872C0928-2BDF-3ABE-82A4-0595B96B11C4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>single_neuron_reconstruction</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">single_neuron_reconstruction.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">single_neuron_reconstruction</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ruanjian\Vaa3D\v3d_external\bin\plugins\D_LSNARS\single_neuron_reconstruction\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">single_neuron_reconstruction.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">single_neuron_reconstruction</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">single_neuron_reconstruction.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">single_neuron_reconstruction</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">single_neuron_reconstruction.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">single_neuron_reconstruction</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_Debug;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_CORE_LIB;QT_GUI_LIB;CMAKE_INTDIR="Debug";single_neuron_reconstruction_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_CORE_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"Debug\";single_neuron_reconstruction_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_Debug;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_Debug;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target single_neuron_reconstruction</Message>
+      <Command>setlocal
+cd F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\ruanjian\cmake\cmake-3.24.0\bin\cmake.exe -E cmake_autogen F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/CMakeFiles/single_neuron_reconstruction_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\ruanjian\QT\4.8.6\lib\QtCored4.lib;D:\ruanjian\QT\4.8.6\lib\QtGuid4.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\lib\x64\cudart_static.lib;D:\ruanjian\QT\4.8.6\lib\QtCored4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/Debug/single_neuron_reconstruction.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/Debug/single_neuron_reconstruction.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_Release;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;CMAKE_INTDIR="Release";single_neuron_reconstruction_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;CMAKE_INTDIR=\"Release\";single_neuron_reconstruction_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_Release;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_Release;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target single_neuron_reconstruction</Message>
+      <Command>setlocal
+cd F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\ruanjian\cmake\cmake-3.24.0\bin\cmake.exe -E cmake_autogen F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/CMakeFiles/single_neuron_reconstruction_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\ruanjian\QT\4.8.6\lib\QtCore4.lib;D:\ruanjian\QT\4.8.6\lib\QtGui4.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\lib\x64\cudart_static.lib;D:\ruanjian\QT\4.8.6\lib\QtCore4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/Release/single_neuron_reconstruction.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ruanjian/Vaa3D/v3d_external/bin/plugins/D_LSNARS/single_neuron_reconstruction/single_neuron_reconstruction.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_MinSizeRel;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;CMAKE_INTDIR="MinSizeRel";single_neuron_reconstruction_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;CMAKE_INTDIR=\"MinSizeRel\";single_neuron_reconstruction_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_MinSizeRel;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_MinSizeRel;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target single_neuron_reconstruction</Message>
+      <Command>setlocal
+cd F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\ruanjian\cmake\cmake-3.24.0\bin\cmake.exe -E cmake_autogen F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/CMakeFiles/single_neuron_reconstruction_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\ruanjian\QT\4.8.6\lib\QtCore4.lib;D:\ruanjian\QT\4.8.6\lib\QtGui4.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\lib\x64\cudart_static.lib;D:\ruanjian\QT\4.8.6\lib\QtCore4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/MinSizeRel/single_neuron_reconstruction.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/MinSizeRel/single_neuron_reconstruction.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_RelWithDebInfo;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;CMAKE_INTDIR="RelWithDebInfo";single_neuron_reconstruction_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;QT_GUI_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";single_neuron_reconstruction_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_RelWithDebInfo;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\include_RelWithDebInfo;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\include;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\common_lib\include;D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun;D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing;D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\~\TensorRT\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include;D:\ruanjian\QT\4.8.6\include\..\tools\shared\qtpropertybrowser;D:\ruanjian\QT\4.8.6\include;D:\ruanjian\QT\4.8.6\include\QtCore;D:\ruanjian\QT\4.8.6\mkspecs\default;D:\ruanjian\QT\4.8.6\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target single_neuron_reconstruction</Message>
+      <Command>setlocal
+cd F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\ruanjian\cmake\cmake-3.24.0\bin\cmake.exe -E cmake_autogen F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/CMakeFiles/single_neuron_reconstruction_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\ruanjian\QT\4.8.6\lib\QtCore4.lib;D:\ruanjian\QT\4.8.6\lib\QtGui4.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\lib\x64\cudart_static.lib;D:\ruanjian\QT\4.8.6\lib\QtCore4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/RelWithDebInfo/single_neuron_reconstruction.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/RelWithDebInfo/single_neuron_reconstruction.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\ruanjian\cmake\cmake-3.24.0\bin\cmake.exe -SF:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction -BF:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build --check-stamp-file F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeConfigurableFile.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakePushCheckState.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CheckSymbolExists.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindCUDA.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindCUDA\select_compute_arch.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindQt4.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\MacroAddFileDependencies.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Qt4ConfigDependentSettings.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Qt4Macros.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\feature_tests.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\ruanjian\cmake\cmake-3.24.0\bin\cmake.exe -SF:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction -BF:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build --check-stamp-file F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeConfigurableFile.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakePushCheckState.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CheckSymbolExists.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindCUDA.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindCUDA\select_compute_arch.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindQt4.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\MacroAddFileDependencies.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Qt4ConfigDependentSettings.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Qt4Macros.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\feature_tests.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\ruanjian\cmake\cmake-3.24.0\bin\cmake.exe -SF:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction -BF:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build --check-stamp-file F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeConfigurableFile.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakePushCheckState.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CheckSymbolExists.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindCUDA.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindCUDA\select_compute_arch.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindQt4.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\MacroAddFileDependencies.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Qt4ConfigDependentSettings.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Qt4Macros.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\feature_tests.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\ruanjian\cmake\cmake-3.24.0\bin\cmake.exe -SF:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction -BF:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build --check-stamp-file F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeConfigurableFile.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakePushCheckState.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CheckCXXSymbolExists.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CheckSymbolExists.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindCUDA.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindCUDA\select_compute_arch.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\FindQt4.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\MacroAddFileDependencies.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Qt4ConfigDependentSettings.cmake;D:\ruanjian\cmake\cmake-3.24.0\share\cmake-3.24\Modules\Qt4Macros.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\feature_tests.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\data_definition.cpp" />
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\dialog.cpp" />
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\io2.cpp" />
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\neuron_reconstruction.cpp" />
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\src\cpp\single_neuron_reconstruction_plugin.cpp" />
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun\v3d_message.cpp" />
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun\basic_surf_objs.cpp" />
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\basic_c_fun\basic_4dimage_create.cpp" />
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c\mst_prim_c.cpp" />
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\worm_straighten_c\bfs_1root.cpp" />
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\graph\dijk.cpp" />
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing\neuron_sim_scores.cpp" />
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing\v_neuronswc.cpp" />
+    <ClCompile Include="D:\ruanjian\Vaa3D\v3d_external\v3d_main\neuron_editing\global_feature_compute.cpp" />
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtbuttonpropertybrowser.cpp" />
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qteditorfactory.cpp" />
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtgroupboxpropertybrowser.cpp" />
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtpropertybrowser.cpp" />
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtpropertybrowserutils.cpp" />
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtpropertymanager.cpp" />
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qttreepropertybrowser.cpp" />
+    <ClCompile Include="D:\ruanjian\QT\4.8.6\tools\shared\qtpropertybrowser\qtvariantproperty.cpp" />
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\single_neuron_reconstruction_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\ZERO_CHECK.vcxproj">
+      <Project>{B05DAD32-531B-3ED9-89D6-E7B2D79C4037}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,403 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "MinSizeRel/single_neuron_reconstruction.dll"
+		},
+		{
+			"path" : "MinSizeRel/single_neuron_reconstruction.lib"
+		},
+		{
+			"path" : "MinSizeRel/single_neuron_reconstruction.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -MD"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"define" : "single_neuron_reconstruction_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/build/single_neuron_reconstruction_autogen/include_MinSizeRel"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/src/cpp/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/common_lib/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/basic_c_fun"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/neuron_editing"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/worm_straighten_c"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "F:/neuron_reconstruction_system/D_LSNARS/single_neuron_reconstruction/~/TensorRT/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.4/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/ruanjian/QT/4.8.6/include/../tools/shared/qtpropertybrowser"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/ruanjian/QT/4.8.6/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/ruanjian/QT/4.8.6/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/ruanjian/QT/4.8.6/mkspecs/default"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "D:/ruanjian/QT/4.8.6/include/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "single_neuron_reconstruction::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\ruanjian\\QT\\4.8.6\\lib\\QtCore4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\ruanjian\\QT\\4.8.6\\lib\\QtGui4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.4\\lib\\x64\\cudart_static.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\ruanjian\\QT\\4.8.6\\lib\\QtCore4.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "single_neuron_reconstruction",
+	"nameOnDisk" : "single_neuron_reconstruction.dll",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/single_neuron_reconstruction_autogen/mocs_compilation_MinSizeRel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp/data_definition.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp/dialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp/io2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp/neuron_reconstruction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cpp/single_neuron_reconstruction_plugin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/basic_c_fun/v3d_message.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/basic_c_fun/basic_surf_objs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/basic_c_fun/basic_4dimage_create.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/worm_straighten_c/mst_prim_c.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/worm_straighten_c/bfs_1root.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/graph/dijk.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/neuron_editing/neuron_sim_scores.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/neuron_editing/v_neuronswc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/Vaa3D/v3d_external/v3d_main/neuron_editing/global_feature_compute.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/QT/4.8.6/tools/shared/qtpropertybrowser/qtbuttonpropertybrowser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/QT/4.8.6/tools/shared/qtpropertybrowser/qteditorfactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/QT/4.8.6/tools/shared/qtpropertybrowser/qtgroupboxpropertybrowser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/QT/4.8.6/tools/shared/qtpropertybrowser/qtpropertybrowser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/QT/4.8.6/tools/shared/qtpropertybrowser/qtpropertybrowserutils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/QT/4.8.6/tools/shared/qtpropertybrowser/qtpropertymanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/QT/4.8.6/tools/shared/qtpropertybrowser/qttreepropertybrowser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "D:/ruanjian/QT/4.8.6/tools/shared/qtpropertybrowser/qtvariantproperty.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,67 @@
+#SET image pre-process
+gaussian_use: False
+eqa_use: False
+auto_gamma_use: True
+auto_gamma_min: 0.5
+auto_gamma_max: 1.5
+gamma: 1.0
+norm_percent_use: False
+
+#set soma detection model
+det_use: True
+det_cla_checkpoint_path : 'soma_detection/checkpoint/MCCNET_K7_AUGclass_model_40.pkl'
+det_seg_checkpoint_path : 'soma_detection/checkpoint/SFSNet_aug_CEW10seg_model_100.pkl'
+det_seg_batch : 2
+soma_area_min: 500
+soma_area_max: 50000
+det_seg_save_cash: False
+det_seg_save_cash_path: 'result'
+
+#set segment model
+seg_use: True
+seg_model_name : "DTANET_BN_CEW1_KS3_T2_20seg_model_40.pkl" #"UNET3D_BN_CBAM1_CEW1_SK3_noStepLR"
+seg_checkpoint_path : "segment/checkpoint/DTANET_BN_CEW1_KS3_T2_20seg_model_40.pkl" #
+seg_batch: 8
+seg_save_cash: False
+seg_save_cash_path: 'result'
+
+#set reconstruction model
+rec_model_name: RivuNet # SPE_DNR // NeuTube // RivuNet
+rec_checkpoint_path : 'reconstruct/checkpoint/SPE_DNR_swc2img.pkl'
+SPE_NUM : 10
+SPE_STEP : 1
+#z_expand: True
+z_expand: False
+SEED_MAX : 20000 #30000
+Ma : 32
+Mp : 32
+max_branch_lenth : 1000
+track_step: 2
+Angle_T: 1.57 #1.047 (pi/3)
+lamd : 4
+rec_save_cash: True
+rec_save_cash_path: 'result'
+
+#set neuron repair model
+rep_use: True
+TED_checkpoint_path : 'repaire/checkpoint/TED_best.pkl'
+TLP_checkpoint_path: 'repaire/checkpoint/TLP_46.pth'
+rep_save_cash: True
+rep_save_cash_path: 'result'
+
+#set resample and prune
+Python_code_path: 'F:/neuron_reconstruction_system/D_LSNARS_test_0622'
+Vaa3d_path : "D:/ruanjian/Vaa3D/v3d_external/bin/vaa3d_msvc.exe"
+Vaa3d_resample_plugin_path : "D:/ruanjian/Vaa3D/v3d_external/bin/plugins/neuron_utilities/resample_swc/resample_swc.dll"
+resample_save_cash_path: 'result'
+
+# set Greedy search parameters
+blockSize: 128 # default 256
+margin_lamd: 0.0625 #0.0625
+MaxpointNUM: 30000
+min_branch_length: 3
+
+
+
+
+

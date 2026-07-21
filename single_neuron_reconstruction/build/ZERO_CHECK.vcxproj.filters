@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\neuron_reconstruction_system\D_LSNARS\single_neuron_reconstruction\build\CMakeFiles\153af1454bf2a455ce3a674e3b6a954d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{35FABE2E-7FD8-38E2-985E-2B95F89752CD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
