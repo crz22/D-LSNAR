@@ -3,12 +3,10 @@
     single_neuron_reconstruction/
     
     ├── CMakeLists.txt
-    ├── src
     ├── Multi_neuron_reconstruction.py
-    
+    ├── src
       ├── cpp
       ├── python
-      
         ├── setup.yaml
         |── requirements.txt
 
@@ -44,10 +42,11 @@ After successful compilation, the generated plugin (.dll) can be placed in the V
   Option 1. Run from the Vaa3D GUI (Recommended)
   Open Vaa3D and select
   Plug-ins
-    └── D_LSNARS
+    └── D_LSNAR
             └── Single Neuron Reconstruction
   Then choose the input image and soma marker to perform automatic reconstruction.
-  <img width="742" height="551" alt="image" src="https://github.com/user-attachments/assets/f8938a10-b343-4174-a781-96bc55cb5590" />
+ <img width="937" height="720" alt="image" src="https://github.com/user-attachments/assets/de9d1b20-356b-4028-ab11-864e79e40ff9" />
+
 
   Option 2. Run from Python
   Execute
