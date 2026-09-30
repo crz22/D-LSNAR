@@ -801,6 +801,7 @@ void Neuron_Reconstruction::runTracingLoop(V3DPluginArgList& tracingArgsList)
         NodeList connectedNeuronSegs;
         if (currentTarget->isStartBlock) {
             extractSomaNodes(blockNeuronTree, connectedNeuronSegs);
+            connectedNeuronSegs[0]->type = 1;
             currentTarget->isStartBlock = false;
         } 
         else {
@@ -849,6 +850,7 @@ void Neuron_Reconstruction::runTracingLoop(V3DPluginArgList& tracingArgsList)
 
         // --- Save intermediate results regularly ---
         if (++traceCount % 10 == 0) {
+        //if (++traceCount % 1 == 0) {
             std::cout << "======== Periodic Save ========" << std::endl;
             double currentHours = globalTimer.nsecsElapsed() / 1e9 / 3600.0;
             saveFinalNeuronTree(finalSWCfile, currentHours);
@@ -1209,7 +1211,9 @@ bool Neuron_Reconstruction::saveFinalNeuronTree(const QString& savePath, double 
             minY = std::min(minY, node->y); maxY = std::max(maxY, node->y);
             minZ = std::min(minZ, node->z); maxZ = std::max(maxZ, node->z);
             //if (node->radius > rmax) { rmax = node->radius; soma_node = node; }
-            if (node->parent == nullptr && soma_node == nullptr)
+            //if (node->parent == nullptr && soma_node == nullptr)
+            //    soma_node = node;
+            if (node->type == 1 && soma_node == nullptr)
                 soma_node = node;
             ind[node] = ++nums;
         }

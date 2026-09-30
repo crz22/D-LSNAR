@@ -275,6 +275,7 @@ def segment_block(config,image,image_path,soma_mask=None):
 
     #load image
     # image = read_image(image_path)
+
     img_max = image.max()
     if img_max > 0:
         image = (image / img_max).astype(np.float32, copy=False)
@@ -310,6 +311,8 @@ def segment_block(config,image,image_path,soma_mask=None):
     pred_array = np.stack(pred_block, axis=0)
     predict = split_block(pred_array, step_num)
 
+    img_mask = image>0.3
+    predict = np.where(img_mask>predict,img_mask,predict).astype(np.uint8)
     predict = binary_opening(predict > 0, structure=np.ones((2, 2, 1))).astype(np.uint8)
 
     # Remove background mutations in some images
