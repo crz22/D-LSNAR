@@ -63,9 +63,11 @@ Output
   intermediate segmentation results (optional)
 
 Test Sample for Quick Validation
+
   To facilitate quick validation and help users get started, we have provided a test_sample directory in the repository. This sample allows you to reproduce both the local reconstruction and cross-block stitching procedures without requiring a complete whole-brain dataset.
   
   The test_sample includes the following resources:
+  
   17302_cut/: Contains 8 adjacent subvolumes (256×256×256 voxels each), saved in the TeraFly format.
   marker/: Contains the soma coordinates of the test neuron in .marker format.
   test_results/: Contains the expected outputs for verification, including:
