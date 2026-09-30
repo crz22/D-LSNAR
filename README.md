@@ -62,5 +62,19 @@ Output
   The reconstruction pipeline automatically generates reconstructed neuron morphology (.swc)
   intermediate segmentation results (optional)
 
+Test Sample for Quick Validation
+  To facilitate quick validation and help users get started, we have provided a test_sample directory in the repository. This sample allows you to reproduce both the local reconstruction and cross-block stitching procedures without requiring a complete whole-brain dataset.
+  
+  The test_sample includes the following resources:
+  17302_cut/: Contains 8 adjacent subvolumes (256×256×256 voxels each), saved in the TeraFly format.
+  marker/: Contains the soma coordinates of the test neuron in .marker format.
+  test_results/: Contains the expected outputs for verification, including:
+  17302_cut_tmp/: The intermediate results for each block (e.g., soma mask _somamask.tif, neurite mask _seg.tif, preliminary reconstruction _spe_dnr.swc, and optimized result _resample.swc).
+  17302_cut_SPE_DNR.swc: The final globally stitched reconstruction result.
+  configuration.yaml: The key parameter settings used to generate these results.
+  x15211_y21847_z3895.tif: The stitched whole-volume image of the 8 adjacent subvolumes, provided for visual inspection and validation of the final reconstruction against the raw image data.
+
+You can use the configuration.yaml file provided in the test_results folder to configure your environment and run the test directly.
+
 
   
